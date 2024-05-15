@@ -1,0 +1,27 @@
+.homeBox{
+    padding-left: 10%;
+    padding-top: 10%;
+    height: 100%;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.contactList{
+    display: flex;
+    flex-direction: row;
+}
+
+.contactList a{
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+
+.contactList a img{
+    padding: 20%;
+}
+
+.contactList a img:hover{
+    transition-duration: 1s;
+    padding: 1%;
+}

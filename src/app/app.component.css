@@ -46,4 +46,9 @@ img {
     font-style: normal;
 }
 
+html, body{
+    height: auto;
+    width: 100%;
+}
+
 
