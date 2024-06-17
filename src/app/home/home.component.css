@@ -1,6 +1,6 @@
 .homeBox{
-    padding-left: 10%;
-    padding-top: 10%;
+    padding-left: 5%;
+    padding-top: 5%;
     height: 100%;
     margin-bottom: auto;
     margin-right: auto;
@@ -25,3 +25,29 @@
     transition-duration: 1s;
     padding: 1%;
 }
+
+.summary{
+    color: white;
+    text-align: justify;
+    font-family: Mynerve;
+}
+
+
+@font-face {
+    font-family: 'Mynerve';
+    src: url('/assets/fonts/Poetsen_One/PoetsenOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.subHeader {
+    margin-left: 2rem;
+}
+
+.cardBox{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+

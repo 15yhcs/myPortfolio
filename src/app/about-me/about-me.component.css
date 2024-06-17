@@ -1,6 +1,14 @@
 img{
-    border-radius: 20%;
-    margin: 20px 20px 20px 20px;
-    box-shadow: 5px 5px 5px 5px rgb(22, 36, 49);
-    float: left;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+p{
+    color: white;
+    width: 80%;
+}
+
+h5{
+    text-size-adjust: 50%;
 }

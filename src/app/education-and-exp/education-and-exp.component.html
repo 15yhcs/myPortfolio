@@ -1,1 +1,9 @@
-<p>education-and-exp works!</p>
+<div class="container-fluid">
+    <div class="row">
+            <app-education-cards 
+             *ngFor="let education of educationAndExp" 
+             [education]="education">
+
+            </app-education-cards>
+    </div>
+</div>

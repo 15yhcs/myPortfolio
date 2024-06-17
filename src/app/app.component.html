@@ -1,7 +1,7 @@
 <!-- Image and text -->
 <div class="h-100">
   <app-header></app-header>
-    <div id="contentContainer">
+    <div id="contentContainer" [ngStyle]="{'background-color': curColor}">
       <router-outlet></router-outlet>
     </div>
 </div>

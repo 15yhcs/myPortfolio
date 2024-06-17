@@ -6,19 +6,19 @@
                     <img src="/assets/img/linkedIn.png" alt="" style="width: 80px;">
                 </a>
         
-                <a href="">
+                <a href="https://github.com/15yhcs/">
                     <img src="/assets/img/github.png" alt="" style="width: 80px;">
                 </a>
                 
-                <a href="">
+                <a href="https://www.instagram.com/shuyewin/">
                     <img src="/assets/img/ins.png" alt="" style="width: 80px;">
                 </a>
             
-                <a href="">
+                <a href="https://www.facebook.com/shu.yewin?mibextid=LQQJ4d">
                     <img src="/assets/img/fb.png" alt="" style="width: 80px;">
                 </a>
-            
-                <a href="">
+                <!-- // action -->
+                <a href=""> 
                     <img src="/assets/img/wechat.png" alt="" style="width: 80px;">
                 </a>
             
@@ -27,6 +27,16 @@
         </div>
     </div>
     <div class="row">
-        
+        <div class="col-6 mt-3">
+            <h3 style="color: white;" class="subHeader">Welcome to my portfolio!</h3>
+            <button class="btn btn-outline-info btn-lg ml-5 mt-5" type="button" (click)="onClick()"> About Me</button>
+            <!-- <p class="summary">Junior Software Engineer with 3 years of professional experience who has a proven track record of delivering highly visible and complex projects such as scalable SaaS and On-premise applications, robust database management systems, and intuitive user interfaces within fast-paced environments.Engaged collaborator with strong interpersonal skills, able to align multiple teams with conflicting priorities to drive progress under aggressive time constraints.</p> -->
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <app-contact-cards class="row" [userCard]="usercard"></app-contact-cards>
+        </div>
     </div>
 </div>
