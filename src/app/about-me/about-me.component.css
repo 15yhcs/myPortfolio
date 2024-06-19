@@ -10,5 +10,21 @@ p{
 }
 
 h5{
-    text-size-adjust: 50%;
+    text-size-adjust: 100%;
+}
+
+.containerCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.paragraph{
+    width: 50%;
+    text-align: justify;
+}
+
+button{
+    width: 15rem;
 }

@@ -29,9 +29,12 @@ export class AppComponent implements OnInit, DoCheck {
     console.log(this.curRoute);
     
     if(this.curRoute == '/aboutMe'){
-      this.curColor = 'black'
+      this.curColor = 'grey'
     }
     if(this.curRoute == '/educationExp'){
+      this.curColor = '#78d4f7'
+    }
+    if(this.curRoute == '/contact'){
       this.curColor = '#78d4f7'
     }
     console.log(this.curColor);

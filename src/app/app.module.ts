@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactCardComponent } from './contact-card/contact-card.component';
 import { ContactCardsComponent } from './home/contact-cards/contact-cards.component';
 import { EducationCardsComponent } from './education-and-exp/educationCards/education-cards/education-cards.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,9 @@ import { EducationCardsComponent } from './education-and-exp/educationCards/educ
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
