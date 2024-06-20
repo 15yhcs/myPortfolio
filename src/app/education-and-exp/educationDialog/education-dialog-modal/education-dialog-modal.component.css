@@ -1,0 +1,18 @@
+.box{
+    padding: 20px 20px 20px 20px;
+    height: 100%;
+    backdrop-filter: blur(20px);
+}
+
+.hero-image {
+    background-image: url("/assets/img/ibm.png");
+    width: 40rem;
+    height: 30rem;
+    background-size: cover;
+    position: relative;
+    
+}
+
+p{
+    text-align: justify;
+}

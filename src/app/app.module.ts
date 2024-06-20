@@ -14,6 +14,7 @@ import { ContactCardComponent } from './contact-card/contact-card.component';
 import { ContactCardsComponent } from './home/contact-cards/contact-cards.component';
 import { EducationCardsComponent } from './education-and-exp/educationCards/education-cards/education-cards.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { EducationDialogModalComponent } from './education-and-exp/educationDialog/education-dialog-modal/education-dialog-modal.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HomeComponent,
     ContactCardComponent,
     ContactCardsComponent,
-    EducationCardsComponent
+    EducationCardsComponent,
+    EducationDialogModalComponent
   ],
   imports: [
     BrowserModule,
